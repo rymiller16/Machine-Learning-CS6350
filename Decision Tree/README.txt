@@ -3,8 +3,7 @@ The metric being passed is a string corresponding to the metric being used to sp
 the fit function on data wishing to be analyzed. Note, the inputs to the fit function are the raw data without labels,
 the data labels, and a flags array. The flags array is an array of size equal to the number of features in the data being analyzed,
 where a 0 is placed in elements where the feature is non-numerical and a 1 where the feature is numerical. Use the predict
-function to predict outcomes on the "X" data in question. Located in the folder is also a "get_prediction_accuracy" function that
-can be used to compare outcomes of the ID3 algorithm against the labels of the raw data. 
+function to predict outcomes on the "X" data in question. 
 
 To use the ID3 class with the algorithms for homework 2 - AdaBoost and Bagged Trees, utilize the "ID3_class_weights" class which supports
 weighted examples. 
